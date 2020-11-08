@@ -16,7 +16,7 @@
 .logo{
   width: 65px;
   height: 58px;
-  background-image: url('../logo.png');
+  background-image: url('../../logo.png');
   display: flex;
   position: absolute;
   left: 405px;
@@ -84,7 +84,7 @@
 .img{
   width: 47px;
   height: 47px;
-  background: url('../img/Ellipse.png');
+  background: url('../../img/Ellipse.png');
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 50%;
