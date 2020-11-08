@@ -1,5 +1,6 @@
 import React from 'react';
 import header from './Header.module.css';
+import ProfileMenu from './Menu/ProfileMenu';
  
 const Header = () => {
     return (
@@ -17,18 +18,7 @@ const Header = () => {
               </ul>
             </div>
             <div className = {header.header_profile}>
-              <div className = 'profile' tabindex="0">
-                <div className = {header.img}>
-                </div>
-                <button className={header.arrow}><span><i class="fa fa-angle-down" aria-hidden="true"></i></span></button>
-                <div className = 'profile__menu'>
-                  <ul>
-                    <a><li>Профиль</li></a>
-                    <a><li>Сообщества</li></a>
-                    <a><li>Мои проекты</li></a>
-                  </ul>
-                </div>
-              </div> 
+              <ProfileMenu />
               <div className = {header.lang}>
                 <span>ru</span>
               </div>             
