@@ -1,38 +1,355 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: #E5E5E5;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+  width: 1961px;
+  background: #E5E5E5;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  width: 1961px;
+  height: 80px;
+  background: white;
   display: flex;
+  position: absolute;
+}
+
+.header__navigation{
+  width: 1110px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.header__logo{
+  width: 65px;
+  height: 58px;
+  background-image: url('./logo.png');
+  display: flex;
+  position: absolute;
+  left: 405px;
+  top: 6px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.54));
+}
+
+.header__search{
+  width: 326px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  left: 499px;
+  top: 21px;
+  border: none;
+}
+
+.search{
+  width: 326px;
+  height: 32px;
+  background: #E4E4E4;
+  border: none;
+  border-radius: 30px;
+  outline:none;
+  padding-left: 10px;
+  margin-left: 29px;
+}
+
+.header__nav{
+  display: block;
+  position: absolute;
+  width: 610px;
+  height: 32px;
+  left: 934px;
+  top: 25px;
+}
+
+.nav{
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.nav__item{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+.nav__item:nth-child(1){
+  margin-left: 89px;
+}
+
+.header__profile{
+  display: flex;
+  position: absolute;
+  left: 1361px;
+  height: 80px;
+}
+
+
+.img{
+  width: 47px;
+  height: 47px;
+  background: url('./img/Ellipse.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+}
+
+.arrow{
+  position: absolute;
+  left: 62px;
+  top: 7.5px;
+  font-size: 25px;
+  background: white;
+  outline:none;
+  border: none;
+  color: #A6A6A6;
+}
+
+.lang{
+  position: absolute;
+  left: 100px;
+  top: 28px;
+  width: 34px;
+  height: 19px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.wrapper{
+  position: absolute;
+  width: 1117px;
+  height: 323px;
+  left: 398px;
+  top: 110px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.wrapper h2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.line {
+  position: absolute;
+  width: 81px;
+  height: 0px;
+  top: 45px;
+  border: 2px solid #CC0000;
+}
+
+.wrapper__top{ 
+  display: flex;
+  position: absolute;
+  padding-left: 10px;
+  width: 1110px;
+  height: 222px;
+  top: 70px;
+  border-radius: 10px;  
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.top__block {
+  display: flex;
+  min-width: 351px;
+  height: 222px;  
+  margin-right: 30px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  position: relative;
+}
+
+
+.project__logo{
+  position: absolute;
+  width: 120px;
+  height: 128px;
+  background-image: url('./img/logo_project.png');
+  top: -20px;
+  left: -10px;
+}
+
+.project__title{
+  position: absolute;
+  width: 111px;
+  height: 26px;
+  top: 20px;
+  left: 100px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.project__city{
+  position: absolute;
+  width: 111px;
+  height: 26px;
+  top: 40px;
+  left: 100px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7A7A7A;
+}
+
+.project__description{
+  display: block;
+  position: absolute;
+  width: 291px;
+  height: 69px;
+  top: 87px;
+  left: 26px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.more {
+  position: absolute;
+  width: 291px;
+  height: 69px;
+  top: 190px;
+  left: 240px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #CC0000;
+  text-decoration: none;
+}
+
+.slider{
+  position: absolute;
+  width: 1110px;
+  height: 222px;
+}
+
+.faq_wrapper{
+  position: absolute;
+  left: 410px;
+  top: 472px;
+  width: 1100px;
+  height: 222px;
+  display: flex;
+}
+
+.news{
+  width: 285px;
+  height: 361px;
+  background: #FFFFFF;
+  border-radius: 10px; 
+  margin-right: 30px; 
+}
+
+.question{
+  width: 477px;
+  height: 402px;
+  margin-right: 30px;
+}
+
+.contest{
+  width: 287px;
+  height: 361px;
+  background: #FFFFFF;
+  border-radius: 10px;  
+}
+
+.profile__menu{
+  display: flex;
+  width: 200px;
+  font-weight: 600;
+  overflow: hidden;
+  position: relative;
+  right: 100px;
+  top: 19px;
+  margin-top: -110px;
+}
+.profile__menu ul{
+  display: flex;
+  position: relative;
+  width: 100%;
+  list-style-type: none;
+  background-color: rgba(255, 255, 255, 0.397);
+  padding-left: 15px;   
+  line-height: 20px;
+  transition: all 0.3s ease-in-out;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  z-index: -3;
 }
 
-.App-link {
-  color: #61dafb;
+.profile__menu li{
+  display: block;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  cursor: pointer;
+}
+.profile__menu li:hover{
+  background-color: rgba(255, 255, 255, 0.534) ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile__menu li:nth-child(1){
+  margin-top: 5px;
+}
+
+.profile{
+  cursor: pointer;
+  width: 100px;
+  height: 65px;
+  position: absolute;
+  top: 14px;
+  outline: none;
+}
+.profile:hover{
+  cursor: pointer;
+}
+
+.profile:focus > .profile__menu{
+  margin-top: 0;
+  transition: all 0.3s ease-in-out;
 }
