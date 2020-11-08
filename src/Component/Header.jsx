@@ -1,25 +1,26 @@
 import React from 'react';
-
+import header from './Header.module.css';
+ 
 const Header = () => {
     return (
-        <header className = 'header'>
-          <div className = 'header__navigation'>
-            <div className= 'header__logo'></div>
-            <div className = 'header__search'>
-              <input className= 'search'></input>
+        <header className = {header.header}>
+          <div className = {header.navigation}>
+            <div className= {header.logo}></div>
+            <div className = {header.search}>
+              <input className= {header.search_input}></input>
             </div>
-            <div className = 'header__nav'>
-              <ul className='nav'>
-                <li className='nav__item'>Проекты</li>
-                <li className='nav__item'>Инвесторы</li>
-                <li className='nav__item'>Сообщества </li>
+            <div className = {header.nav}>
+              <ul className={header.nav_list}>
+                <li className={header.nav_item}>Проекты</li>
+                <li className={header.nav_item}>Инвесторы</li>
+                <li className={header.nav_item}>Сообщества </li>
               </ul>
             </div>
-            <div className = 'header__profile'>
+            <div className = {header.header_profile}>
               <div className = 'profile' tabindex="0">
-                <div className = 'img'>
+                <div className = {header.img}>
                 </div>
-                <button className='arrow'><span><i class="fa fa-angle-down" aria-hidden="true"></i></span></button>
+                <button className={header.arrow}><span><i class="fa fa-angle-down" aria-hidden="true"></i></span></button>
                 <div className = 'profile__menu'>
                   <ul>
                     <a><li>Профиль</li></a>
@@ -28,7 +29,7 @@ const Header = () => {
                   </ul>
                 </div>
               </div> 
-              <div className = 'lang'>
+              <div className = {header.lang}>
                 <span>ru</span>
               </div>             
             </div>

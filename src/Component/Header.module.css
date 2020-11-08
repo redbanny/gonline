@@ -1,0 +1,118 @@
+.header{
+  width: 1961px;
+  height: 80px;
+  background: white;
+  display: flex;
+  position: absolute;
+}
+
+.navigation{
+  width: 1110px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.logo{
+  width: 65px;
+  height: 58px;
+  background-image: url('../logo.png');
+  display: flex;
+  position: absolute;
+  left: 405px;
+  top: 6px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.54));
+}
+
+.search{
+  width: 326px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  left: 499px;
+  top: 21px;
+  border: none;
+}
+
+.search_input{
+  width: 326px;
+  height: 32px;
+  background: #E4E4E4;
+  border: none;
+  border-radius: 30px;
+  outline:none;
+  padding-left: 10px;
+  margin-left: 29px;
+}
+
+.nav{
+  display: block;
+  position: absolute;
+  width: 610px;
+  height: 32px;
+  left: 934px;
+  top: 25px;
+}
+
+.nav_list{
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.nav_item{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+.nav_item:nth-child(1){
+  margin-left: 89px;
+}
+
+.header_profile{
+  display: flex;
+  position: absolute;
+  left: 1361px;
+  height: 80px;
+}
+
+.img{
+  width: 47px;
+  height: 47px;
+  background: url('../img/Ellipse.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+}
+
+.arrow{
+  position: absolute;
+  left: 62px;
+  top: 7.5px;
+  font-size: 25px;
+  background: white;
+  outline:none;
+  border: none;
+  color: #A6A6A6;
+}
+
+.lang{
+  position: absolute;
+  left: 100px;
+  top: 28px;
+  width: 34px;
+  height: 19px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-align: center;
+  text-transform: uppercase;
+}
