@@ -295,11 +295,11 @@ body{
 
 .profile__menu{
   display: flex;
-  width: 200px;
+  width: 150px;
   font-weight: 600;
   overflow: hidden;
   position: relative;
-  right: 100px;
+  right: 70px;
   top: 19px;
   margin-top: -110px;
 }
@@ -323,11 +323,10 @@ body{
   border-bottom: 1px solid black;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
   text-align: center;
-  letter-spacing: 0.05em;
-  color: #000000;
-  cursor: pointer;
 }
 .profile__menu li:hover{
   background-color: rgba(255, 255, 255, 0.534) ;
