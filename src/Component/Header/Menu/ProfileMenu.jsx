@@ -1,4 +1,5 @@
 import React from 'react';
+import MenuItem from './MenuItem';
 import menu from './ProfileMenu.module.css'
  
 const ProfileMenu = () => {
@@ -9,9 +10,9 @@ const ProfileMenu = () => {
             <button className={menu.arrow}><span><i class="fa fa-angle-down" aria-hidden="true"></i></span></button>
             <div className = {menu.menu}>
                 <ul className={menu.list}>
-                    <a><li className={menu.item}>Профиль</li></a>
-                    <a><li className={menu.item}>Сообщества</li></a>
-                    <a><li className={menu.item}>Мои проекты</li></a>
+                    <MenuItem title='Профиль'/>
+                    <MenuItem title='Профиль'/>
+                    <MenuItem title='Профиль'/>
                 </ul>
             </div>
         </div> 
