@@ -1,5 +1,4 @@
 import React from 'react';
-import SimpleSlider from './Slider/Slider';
 
 const FAQ = () => {
     return (
