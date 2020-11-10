@@ -3,7 +3,10 @@ import menu from './ProfileMenu.module.css'
  
 const MenuItem = (props) => {
     return (        
-        <a><li className={menu.item}>{props.title}</li></a>           
+        <a className={menu.link}>
+            <i class={props.ico}></i>
+            <li className={menu.item}>{props.title}</li>
+        </a>           
     );
 }
 
