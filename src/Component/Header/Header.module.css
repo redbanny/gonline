@@ -3,7 +3,7 @@
   height: 80px;
   background: white;
   display: flex;
-  position: absolute;
+  position: relative;
 }
 
 .navigation{

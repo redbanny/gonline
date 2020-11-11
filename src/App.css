@@ -24,7 +24,7 @@ body{
   width: 1117px;
   height: 323px;
   left: 398px;
-  top: 110px;
+  margin-top: 34px;
   display: flex;
   justify-content: center;
 }

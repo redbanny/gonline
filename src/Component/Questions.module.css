@@ -49,3 +49,19 @@
     position: absolute;
     top: 54px;
 }
+
+.all{
+    position: absolute;
+    width: 117px;
+    height: 20px;
+    top: 368px;
+    left: 670px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #CC0000;
+}

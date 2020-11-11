@@ -1,0 +1,45 @@
+.contest{
+    display: flex;
+    width: 287px;
+    height: 341px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding-top: 17px;  
+    flex-direction: column;
+}
+
+.title{
+    display: block;
+    width: 215px;
+    height: 22px;
+    margin-left: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    align-self: center;
+    width: 227px;
+    height: 272px;
+    margin-top: 21px;
+}
+
+.contest_img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

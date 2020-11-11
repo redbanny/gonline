@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import faq from './FAQ.module.css'
 import questions from './Questions.module.css'
+import contest from './Сontest.module.css'
 
 const FAQ = () => {
     return (
@@ -50,8 +51,35 @@ const FAQ = () => {
             <i class="far fa-comment-alt"></i>
             <button className={questions.btn}>Ответить</button>
           </div>
+          <span className ={questions.all}>все вопросы</span>
         </div>
-        <div className = {faq.contest}></div>
+        <div className = {contest.contest}>
+          <span className = {contest.title}>
+            Инвест конкурс
+          </span>
+          <div className = {contest.wrap}>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+            <div className={contest.contest_img}></div>
+          </div>
+        </div>
     </div>
   );
 }
