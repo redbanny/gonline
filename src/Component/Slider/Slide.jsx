@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
  
 const Slide = (props) => {
     return (
@@ -10,7 +11,7 @@ const Slide = (props) => {
           <span className = 'project__description'>
             {props.text}
           </span>
-          <a href='#' className = 'more'><span>Подробнее</span></a>
+          <NavLink to='/profile' className='more'><span>Подробнее</span></NavLink>
         </div>
       </div>
     );

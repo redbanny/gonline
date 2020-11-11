@@ -1,0 +1,51 @@
+.question{
+    width: 477px;
+    height: 402px;
+    margin-right: 30px;
+}
+
+.item{
+    width: 469px;
+    height: 100px;
+    padding-top: 17px;
+    border-bottom: 2px solid #cebbbb;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;    
+    position: relative;
+}
+
+.item i{
+    color: #BFBFBF;
+    position: absolute;
+    top: 84px;
+    left: 325px;
+}
+
+.btn{
+    position: absolute;
+    top: 74px;
+    left: 350px;
+    width: 124px;
+    height: 33px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #CC0000;
+    border: 1px solid #CC0000;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.btn:nth-child(1){
+    position: absolute;
+    top: 54px;
+}
