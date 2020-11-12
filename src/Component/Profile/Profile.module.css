@@ -1,0 +1,132 @@
+.wrap{
+    display: flex;
+    width: 1961px;
+    height: 330px;
+    position: relative;
+    justify-content: center;
+}
+
+.head{
+    width: 1961px;
+    height: 250px;
+    background-color: #C4C4C4;
+}
+
+.user{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 1110px;
+    height: 330px;
+    top: 40px;
+}
+
+.photo{
+    width: 287px;
+    height: 287px;
+}
+
+.date{
+    width: 730px;
+    height: 280px;
+    margin-left: 60px;
+}
+
+.name{
+    display: block;
+    width: 600px;
+    height: 52px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.location{
+    width: 133px;
+    height: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.follow{
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    justify-content: space-between;
+}
+
+.followers, .subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 129px;
+    height: 33px;
+    margin-top: 40px;
+}
+
+.followers_sum, .followers_f{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #CC0000;
+}
+.followers_f{
+    font-weight: 400;
+}
+
+.button_place{
+    width: 530px;
+    margin-top: 33px;
+}
+
+.button_follow{
+    width: 190px;
+    height: 57px;
+    border-radius: 100px;
+    background: #F5F4F4;
+    border: 2px solid #CC0000;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #CC0000;
+}
+
+.button_message{
+    width: 323px;
+    height: 57px;
+    background: #CC0000;
+    border: none;
+    border-radius: 100px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+    margin-left: 16px;
+    outline: none;
+}

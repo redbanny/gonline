@@ -2,6 +2,7 @@ import React from 'react';
 import Toproject from '../Toproject'
 import FAQ from '../FAQ'
 import News from '../News/News'
+import Public from '../TopPublic/Public'
 
 const StartPage = () => {
     return (
@@ -9,6 +10,7 @@ const StartPage = () => {
         <Toproject />
         <FAQ />
         <News />
+        <Public />
       </div>
   );
 }
